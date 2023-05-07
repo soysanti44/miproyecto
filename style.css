@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    padding-top: 100px;
+}
+#welcom {
+width: 100%;
+height: 100%;
+}
+.prueba {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height : 70px;
+    font-size: 100px;
+}
+.hola {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+}
+
+#subtitulo {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+#subtitulo:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(8, 0, 255), rgb(64, 255, 0));
+    mix-blend-mode: screen; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#welcom img{
+    width: 600px;
+    height: 600px;
+
+}
+
+.i {
+    font-family: 'Bruno Ace SC', cursive;
+}
